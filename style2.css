@@ -64,10 +64,6 @@ button:hover::after {
    height: 100%;
 }
 
-:focus {
-   background-color: var(--focus);
-}
-
 a {
    text-decoration: none;
    color: var(--text);
