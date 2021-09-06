@@ -37,7 +37,7 @@ body {
 button {
    position: relative;
    z-index: 1;
-   margin-block: 2vh;
+   margin-block: 4vh;
    width: max(8ch, 60%);
    cursor: pointer;
    font-weight: 500;
