@@ -65,9 +65,10 @@ button:hover::after {
 }
 
 a {
+   position: absolute;
    text-decoration: none;
    color: var(--text);
-   width: max(100px, 570px);
+   width: max(8ch, 60%);
    padding-block: 3px;
 }
 
