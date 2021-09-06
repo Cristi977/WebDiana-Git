@@ -31,13 +31,13 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-block: 10vh;
+   margin-block: 15vh;
 }
 
 button {
    position: relative;
    z-index: 1;
-   margin-block: 4vh;
+   margin-block: 2vh;
    width: max(8ch, 60%);
    cursor: pointer;
    font-weight: 500;
