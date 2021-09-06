@@ -31,7 +31,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-block: 15vh;
+   margin-block: max(0pvh, 15vh);
 }
 
 button {
