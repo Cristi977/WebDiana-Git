@@ -67,7 +67,7 @@ button:hover::after {
 a {
    text-decoration: none;
    color: var(--text);
-   margin-inline: max(8ch, 100%);
+   margin-inline: max(0px, 60%);
    padding-block: 3px;
 }
 
