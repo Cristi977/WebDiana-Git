@@ -71,6 +71,10 @@ button:hover::after {
    padding-block: 3px;
 }
 
+footer a {
+   text-decoration: none;
+   color: var(--text);
+}
 
 footer {
    margin-top: max(0px, 7vh);;
