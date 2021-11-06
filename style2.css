@@ -27,14 +27,14 @@ body {
 
 
 .center {
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   user-select: none;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-block: 13vh;
+}
+.center:focus{
+   background-color: rgba(0, 0, 0, 0);
 }
 
 button {
