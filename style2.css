@@ -33,8 +33,16 @@ body {
    align-items: center;
    margin-block: 13vh;
 }
-.center:focus{
+
+.center a:focus{
    background-color: rgba(0, 0, 0, 0);
+}
+
+.center a {
+   text-decoration: none;
+   color: var(--text);
+   padding-inline: max(0px, 20%);
+   padding-block: 3px;
 }
 
 button {
@@ -66,12 +74,6 @@ button:hover::after {
    height: 100%;
 }
 
-.center a {
-   text-decoration: none;
-   color: var(--text);
-   padding-inline: max(0px, 20%);
-   padding-block: 3px;
-}
 
 footer a {
    text-decoration: none;
